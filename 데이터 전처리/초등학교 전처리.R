@@ -4,7 +4,7 @@ library(magrittr)
 
 
 
-school<-fread("C:/Users/shn20/Desktop/작업물/통계분석학회/여름스터디/자료 다운로드/초등학교수_시도_시_군_구__20220706211504.csv")
+school<-fread("초등학교수_시도_시_군_구__20220706211504.csv")
 
 
 
