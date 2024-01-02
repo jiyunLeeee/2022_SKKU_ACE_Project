@@ -60,7 +60,7 @@ fg<-gg%>% spread(key=V2,value=V5)
 #col<-rbind(colnames(fs),colnames(fi),colnames(fg)) %>% as.data.frame
 #write.csv(col,file='변수 통일 필요.csv')
 
-col<-fread("C:/Users/shn20/Desktop/작업물/통계분석학회/여름스터디/전처리/변수 통일 필요.csv")
+col<-fread("변수 통일 필요.csv")
 col %<>% select(-V1)
 
 uni<-col[2,] %>% as.character %>% as.vector
